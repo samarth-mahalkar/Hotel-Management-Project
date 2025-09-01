@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="./style-Dashboard.css">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="styles.css"/>
+  <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
+</head>
+<body>
+  <div class="dashboard-container">
+    
+    <aside class="sidebar">
+        <img src="./img/de08d057-e71f-42a0-89b8-67b812e62b9b-removebg-preview.png" alt="">
+      <h2>Samarth Mahalkar</h2>
+      <nav>
+        <ul>
+          <li>Orders</li>
+          <li>About</li>
+          <li>Salery</li>
+          <li>Performance</li>
+          <li>Settings</li>
+        </ul>
+      </nav>
+      <button class="logout-btn">Logout</button>
+    </aside>
+
+    <main class="main-content">
+      <!-- Top Metrics -->
+      <div class="top-cards">
+        <div class="card"><strong>Today’s Orders</strong><p>23</p></div>
+        <div class="card"><strong>Today’s wroking Time</strong><p>6 Hr</p></div>
+        <!-- <div class="card"><strong>Reservations</strong><p>5</p></div> -->
+        <div class="card"><strong> Feedback</strong><p>90%</p></div>
+      </div>
+
+      <!-- Pending Orders -->
+      <section class="section">
+        <h3>Pending Orders</h3>
+        <table>
+          <thead>
+            <tr><th>Order ID</th><th>Table</th><th>Customer</th><th>Status</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>1023</td><td>12</td><td>John Doe</td><td><span class="status preparing">Preparing</span></td></tr>
+            <tr><td>1020</td><td>7</td><td>Jane Smith</td><td><span class="status progress">In Progress</span></td></tr>
+            <tr><td>1018</td><td>3</td><td>Alex Johnson</td><td><span class="status completed">Completed</span></td></tr>
+            <tr><td>1014</td><td>8</td><td>Emily Williams</td><td><span class="status completed">Completed</span></td></tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section class="section">
+        <h3>Performance</h3>
+        <table>
+          <thead>
+            <tr><th>Order ID</th><th>Table</th><th>Customer</th><th>Status</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>1023</td><td>12</td><td>John Doe</td><td><span class="status preparing">Preparing</span></td></tr>
+            <tr><td>1020</td><td>7</td><td>Jane Smith</td><td><span class="status progress">In Progress</span></td></tr>
+            <tr><td>1018</td><td>3</td><td>Alex Johnson</td><td><span class="status completed">Completed</span></td></tr>
+            <tr><td>1014</td><td>8</td><td>Emily Williams</td><td><span class="status completed">Completed</span></td></tr>
+          </tbody>
+        </table>
+      </section>
+  </div>
+</body>
+</html>

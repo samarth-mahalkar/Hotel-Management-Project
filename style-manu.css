@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Libertinus+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Libertinus+Serif+Display&family=Lobster&display=swap');
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  text-align: center;
+  background: url(./img/1.webp) no-repeat center center fixed;
+  background-size: cover;
+}
+
+.container {
+  padding: 50px 20px;
+  background: rgba(0, 0, 0, 0.5); /* optional overlay */
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+p {
+  color: white;
+  font-size: 0.95rem;
+  margin-bottom: 20px;
+   font-family: 'Libertinus Serif Display', serif;
+   size: 1.2rem;
+}
+
+h2 {
+  font-size: 2rem;
+  margin: 30px 80px 20px;
+  color: white; /* gold color for section titles */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 25px;
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-bottom: 40px;
+  transition: background 0.3s, color 0.3s;
+}
+
+.btn:hover {
+  background: white;
+  color: #6c5ce7;
+}
+
+.btn2 {
+  display: inline-block;
+  padding: 10px 25px;
+  background: transparent;
+  color: black;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 20px 0px 20px 0px;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #fff;
+  color: #333;
+  border-radius: 12px;
+  padding: 20px;
+  width: 250px;
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.card h3 {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  color: #444;
+}
+
+.card p {
+  font-size: 0.85rem;
+  color: #777;
+  margin-bottom: 15px;
+}
+
+.price {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #6c5ce7;
+}
